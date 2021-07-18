@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+          <textarea id="txtKaynak" cols="30" rows="20" wrap="off">
+00000000010
+01010111110
+01010000010
+11011101110
+00000100000
+11010101011
+00010101000
+01010101110
+01010100010
+11010101110
+00010100010</textarea>
+          <div>
+            <button onclick="labirentCiz()">Labirent Çiz</button>
+            <button onclick="labirentCoz()">Labirent Çöz</button>
+          </div>
+        </div>
+        <div class="col">
+          <canvas id="canvas" width="440" height="440"></canvas>
+          <div>
+            <button onclick="animasyon()">Gezinmeyi Animasyonla İzle</button>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
+
